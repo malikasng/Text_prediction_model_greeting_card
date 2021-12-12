@@ -1,0 +1,6 @@
+.DS_Store
+node_modules/
+/dist/
+python-model/env2/
+__pycache__
+python-model/poem_model/

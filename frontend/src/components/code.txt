@@ -1,0 +1,94 @@
+<div>
+      <form nonvalidate @submit.stop.prevent="showResults = true">
+        <div>
+          <md-field>
+            <label>Name</label>
+            <md-input v-model="name" required maxlength="30"></md-input>
+            <span class="md-error">There is an error</span>
+          </md-field>
+        </div>
+        <div>
+          <div class="md-body-2">
+            <div>
+              <md-field>
+                <md-select v-model="relationship" name="relationship" id="relationship" placeholder="Relationship">
+                  <md-option value="family">Family</md-option>
+                  <md-option value="friend">Friend</md-option>
+                  <md-option value="romantic">Romantic</md-option>
+                  <md-option value="work">Work</md-option>
+                </md-select>
+              </md-field>
+            </div>
+          </div>
+        </div>
+
+           <div>
+          <div class="md-body-2">
+            <div>
+              <md-field>
+                <md-select v-model="relationship" name="relationship" id="relationship" placeholder="Relationship">
+                  <md-option value="family">Family</md-option>
+                  <md-option value="friend">Friend</md-option>
+                  <md-option value="romantic">Romantic</md-option>
+                  <md-option value="work">Work</md-option>
+                </md-select>
+              </md-field>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="md-body-2">Text Form</div>
+          <md-radio v-model="text" value="prosa">Prosa</md-radio>
+          <md-radio v-model="text" value="poem">Poem</md-radio>
+          <md-radio v-model="text" value="haiku">Haiku</md-radio>
+        </div>
+        <div>
+          <div class="md-body-2">Style</div>
+        </div>
+        <div>
+          <md-switch v-model="informal">Informal</md-switch>
+        </div>
+        <md-button type="submit" class="md-raised md-accent">Open Results </md-button>
+    </form>
+    </div>
+
+
+
+       <div>
+      <form nonvalidate @submit.stop.prevent="showResults = true">
+        <div>
+          <md-field>
+            <label>Name</label>
+            <md-input v-model="name" required maxlength="30"></md-input>
+            <span class="md-error">There is an error</span>
+          </md-field>
+        </div>
+        <div>
+          <div class="md-body-2">
+            <div>
+              <md-field>
+                <md-select v-model="relationship" name="relationship" id="relationship" placeholder="Relationship">
+                  <md-option value="family">Family</md-option>
+                  <md-option value="friend">Friend</md-option>
+                  <md-option value="romantic">Romantic</md-option>
+                  <md-option value="work">Work</md-option>
+                </md-select>
+              </md-field>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="md-body-2">Text Form</div>
+          <md-radio v-model="text" value="prosa">Prosa</md-radio>
+          <md-radio v-model="text" value="poem">Poem</md-radio>
+          <md-radio v-model="text" value="haiku">Haiku</md-radio>
+        </div>
+        <div>
+          <div class="md-body-2">Style</div>
+        </div>
+        <div>
+          <md-switch v-model="informal">Informal</md-switch>
+        </div>
+        <md-button type="submit" class="md-raised md-accent">Open Results </md-button>
+    </form>
+    </div>
